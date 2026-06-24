@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "source": "ecoinvent v3.9",
+    "vintage": 2023,
+    "methodology": "Allocation by recycled content",
+    "note": "Cached values - verify with current database for production use"
+  },
+  "materials": {
+    "PET_virgin": {
+      "gwp": 2.8,
+      "energy": 84,
+      "water": 65,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "PET_30rPET": {
+      "gwp": 2.3,
+      "energy": 77,
+      "water": 60,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "HDPE_virgin": {
+      "gwp": 1.8,
+      "energy": 73,
+      "water": 45,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "HDPE_30recycled": {
+      "gwp": 1.5,
+      "energy": 68,
+      "water": 40,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "LDPE_film": {
+      "gwp": 1.8,
+      "energy": 73,
+      "water": 45,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "PP_rigid": {
+      "gwp": 1.9,
+      "energy": 75,
+      "water": 50,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "PS_rigid": {
+      "gwp": 2.5,
+      "energy": 80,
+      "water": 55,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "PVC": {
+      "gwp": 2.4,
+      "energy": 78,
+      "water": 60,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "Paper_uncoated": {
+      "gwp": 0.9,
+      "energy": 35,
+      "water": 1000,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "Glass_bottle": {
+      "gwp": 0.8,
+      "energy": 12,
+      "water": 25,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "Al_can": {
+      "gwp": 2.5,
+      "energy": 180,
+      "water": 300,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "Al_75recycled": {
+      "gwp": 0.9,
+      "energy": 45,
+      "water": 80,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    },
+    "PLA_bioplastic": {
+      "gwp": 1.5,
+      "energy": 55,
+      "water": 200,
+      "source": "ecoinvent v3.9",
+      "year": 2023
+    }
+  },
+  "infrastructure": {
+    "EU": {
+      "PET": {
+        "collection": 65,
+        "sortation": true,
+        "facilities": true
+      },
+      "PE": {
+        "collection": 55,
+        "sortation": true,
+        "facilities": true
+      },
+      "PP": {
+        "collection": 50,
+        "sortation": true,
+        "facilities": true
+      },
+      "glass": {
+        "collection": 75,
+        "sortation": true,
+        "facilities": true
+      },
+      "aluminum": {
+        "collection": 70,
+        "sortation": true,
+        "facilities": true
+      },
+      "compost_industrial": {
+        "coverage": 0.3,
+        "facilities": true
+      }
+    },
+    "US": {
+      "PET": {
+        "collection": 30,
+        "sortation": true,
+        "facilities": true
+      },
+      "PE": {
+        "collection": 10,
+        "sortation": false,
+        "facilities": true
+      },
+      "PP": {
+        "collection": 5,
+        "sortation": false,
+        "facilities": true
+      },
+      "glass": {
+        "collection": 40,
+        "sortation": true,
+        "facilities": true
+      },
+      "aluminum": {
+        "collection": 50,
+        "sortation": true,
+        "facilities": true
+      },
+      "compost_industrial": {
+        "coverage": 0.15,
+        "facilities": true
+      }
+    }
+  }
+}

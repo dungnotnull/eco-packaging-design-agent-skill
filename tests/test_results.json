@@ -1,0 +1,89 @@
+{
+  "timestamp": "D:\\skills\\eco-packaging-design",
+  "total": 6,
+  "passed": 6,
+  "failed": 0,
+  "errors": 0,
+  "results": [
+    {
+      "scenario": "Scenario 1: Multilayer Film Redesign",
+      "status": "PASSED",
+      "details": "All 5 quality gates passed",
+      "quality_gates": [
+        "Multilayer recyclability correctly assessed",
+        "Mono-material alternative proposed",
+        "PPWR regulations identified",
+        "Greenwashing flag on recyclability claim",
+        "Protection threshold respected"
+      ],
+      "failed_gates": [],
+      "output_samples": {}
+    },
+    {
+      "scenario": "Scenario 2: Greenwashing Flag",
+      "status": "PASSED",
+      "details": "All vague claims correctly rejected",
+      "quality_gates": [
+        "Rejected vague claim: Eco-friendly",
+        "Rejected vague claim: 100% green",
+        "Rejected vague claim: Natural",
+        "Accepted specific claim: 50% recycled content"
+      ],
+      "failed_gates": [],
+      "output_samples": {}
+    },
+    {
+      "scenario": "Scenario 3: Compostable Without Facilities",
+      "status": "PASSED",
+      "details": "Infrastructure reality correctly checked, claim rejected",
+      "quality_gates": [
+        "Infrastructure reality checked",
+        "Compostability standard cited (EN 13432)",
+        "Compostability claim rejected (no facilities)",
+        "Recyclable alternative suggested"
+      ],
+      "failed_gates": [],
+      "output_samples": {}
+    },
+    {
+      "scenario": "Scenario 4: Protection Threshold Respected",
+      "status": "PASSED",
+      "details": "Protection threshold correctly enforced",
+      "quality_gates": [
+        "Protection needs captured (fragility: extreme)",
+        "Under-protective options rejected",
+        "Protection threshold enforced in roadmap",
+        "User warned about protection constraints"
+      ],
+      "failed_gates": [],
+      "output_samples": {}
+    },
+    {
+      "scenario": "Scenario 5: Material LCA Comparison",
+      "status": "PASSED",
+      "details": "LCA comparison complete with burden-shifting analysis",
+      "quality_gates": [
+        "LCA scope stated (cradle-to-grave)",
+        "Functional unit defined (per 1000 bottles)",
+        "Impact factors cited (ecoinvent v3.9, 2023)",
+        "Burden-shifting flagged (transport weight vs. GWP)",
+        "Trade-offs explicit (material scores stated)"
+      ],
+      "failed_gates": [],
+      "output_samples": {}
+    },
+    {
+      "scenario": "Scenario 6: Data Unavailable (Fallback)",
+      "status": "PASSED",
+      "details": "Graceful fallback with user warnings",
+      "quality_gates": [
+        "Fallback to cached factors executed",
+        "Vintage explicitly stated (2023 cached)",
+        "Confidence level reduced (medium)",
+        "User warned about stale data"
+      ],
+      "failed_gates": [],
+      "output_samples": {}
+    }
+  ]
+}
